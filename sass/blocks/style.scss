@@ -1,0 +1,23 @@
+@import '../base/varuables';
+
+*{
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import '../blocks/promo.scss';
+@import '../blocks/header.scss';
+@import '../blocks/buttons.scss';
+@import '../blocks/benefits.scss';
+@import '../blocks/media.scss';
+@import '../blocks/consultation.scss';
+@import '../blocks/titles.scss';
+@import '../blocks/forms.scss';
+@import '../blocks/carousel.scss';
+@import '../blocks/catalog.scss';
+@import '../blocks/review.scss';
+@import '../blocks/footer.scss';
+@import '../blocks/modal.scss';

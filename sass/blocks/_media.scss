@@ -1,0 +1,115 @@
+@media (max-width:1200px){
+
+}
+@media (max-width:991px){
+    .container{
+        min-width: 767px;
+    }
+}
+@media (max-width:767px){
+    .container{
+        min-width: 575px;
+    }
+    .header{
+        &_logo{
+            width: 200px;
+        }
+        &_official{
+            font-size: 10px;
+            span{
+                font-size: 15px;
+            }
+        }
+        &_phone{
+            font-size: 15px;
+        }
+    }
+    .promo{
+        &__header{
+            font-size: 35px;
+        &__subheader{
+            font-size: 21px;
+        }
+        }
+    }
+    .benefits{
+        &__title{
+            font-size: 17px;
+        }
+        &__subtitle{
+            font-size: 12px;
+        }
+    }
+}
+@media(max-width:575px){
+    .container{
+        min-width: 320px;
+    }
+    .header{
+        justify-content:space-around;
+        flex-wrap: wrap;
+        &_logo{
+            width: 175px;
+        }
+        &_official{
+            font-size: 12px;
+            margin-top: 15px;
+            span{
+                font-size: 20px;
+            }
+        }
+        &_contacts{
+            margin-top: 10px;
+            align-items:center;
+        }
+        &_phone{
+           
+            font-size: 12px;
+        }
+        &_button{
+            width: 125px;
+            height: 26px;
+        }
+    }
+    .promo{
+        &__wrapper{
+            align-items: center;
+        }
+        &__header{
+            font-size: 27px;
+        }
+        &__subheader{
+            font-size: 16px;
+        }
+        &__icons{
+            width: 160px;
+            display: flex;
+            flex-direction: column;
+        }
+        &__icon{
+            font-size: 10px;
+        }
+        
+    .button_main{
+        margin-top: 60px;
+        width: 160px;
+        height: 45px;
+        font-size: 10px;
+    }
+    }
+    
+    .benefits{
+        &__header{
+            font-size: 15px;
+        }
+        &__title{
+            font-size: 17px;
+        }
+        &__subtitle{
+            font-size: 12px;
+        }
+        &__icons{
+            flex-wrap:wrap;
+        }
+    }
+}
